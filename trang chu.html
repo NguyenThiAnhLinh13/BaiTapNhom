@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header start-->
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="https://maffu895.github.io/2311COMP180201-TKWEB-49.01.103.073/B%C3%A0i%20t%E1%BA%ADp%20nh%C3%B3m/HTML/trangchu.html" class="logo"><span>BMW</span>Review</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1">HOME</a>
+            <a href="#about" style="--i:2">ABOUT</a>
+            <a href="#introduce" style="--i:3">INTRODUCE</a>
+            <a href="#vehicles" style="--i:4">VEHICLES</a>
+            <a href="#reviewers" style="--i:5">REVIEWERS</a>
+            <a href="#contact" style="--i:6">CONTACT</a>
+        </nav>
+        <div id="login-btn">
+            <button class="btn">Login</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+    <!--Header end-->
+
+    <!--Login start-->
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="#">
+            <h3>User Login</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <input type="submit" value="Login now" class="btn">
+            <p>Or Login With</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Don't Have An Account <a href="#" id="Log-up">Create One</a></p>
+        </form>
+    </div>
+    <!--Login end-->
+
+    <!--Log up start-->
+    <div class="log-up-form-container">
+
+        <span class="fas fa-times" id="close-log-up-form"></span>
+
+        <form action="#">
+            <h3>Create Account</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <input type="password" placeholder="Confirm Password" class="box">
+            <div class="check-box">
+                <input type="checkbox" id="checked">
+                <p>I agree to <span>teams</span> and <span>Privacy Policy</span></p>
+            </div>
+            <input type="submit" value="Sign Up" class="btn">
+        </form>
+    </div>
+    <!--Log up end-->
+
+    <!--img home start-->
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="home-parallax">Welcome To <span>BMW</span>Review</h1>
+            <h3>BMW BEST</h3>
+            <p class="home-content">BMWReview là trang web chuyên giới thiệu về các dòng xe BMW gồm các mẫu mã mới nhất hiện nay và các dòng lâu đời nhất của hãng.</p>
+            <a href="#vehicles" class="btn-home-parallax">Our Cars</a>
+        </div>
+
+        <div class="home-img">
+            <div class="box">
+                <img src="image/Sunset Orange.png" class="img" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--img home end-->
+
+    <!-- about start-->
+    <section class="icons-container" id="about">
+        <div class="icons" >
+            <i class="fa-solid fa-earth-americas"></i>
+            <div class="content">
+                <h3>100+</h3>
+                <p>Nations</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fa-solid fa-calendar-days"></i>
+            <div class="content">
+                <h3>60+</h3>
+                <p>Established Years</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fa-solid fa-city"></i>
+            <div class="content">
+                <h3>20+</h3>
+                <p>Factories</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4+</h3>
+                <p>Main Vehicals</p>
+            </div>
+        </div>
+    </section>
+    <!-- about end-->
+
+    <!--Introduce start-->
+    <section class="introduce" id="introduce">
+        <h1 class="heading" data-aos="zoom-out"><span>Introduction</span> Of BMW</h1>
+        <div class="row">
+            <div class="video-container" data-aos="zoom-out">
+                <video src="image/Introducing the BMW iFACTORY.mp4" autoplay muted controls ></video>
+                <h3>Introduce</h3>
+            </div>
+            <div class="content" data-aos="zoom-out">
+                <h3>BMW Vehicles</h3>
+                <p>BMW là một trong những hãng xe hơi hàng đầu thế giới, nổi tiếng với những chiếc xe sang trọng, hiệu năng cao và công nghệ tiên tiến.BMW có nhiều dòng xe phù hợp với nhu cầu và sở thích của khách hàng, từ xe thể thao, xe gia đình, xe SUV, xe điện, xe hybrid, đến xe siêu sang. BMW cũng là hãng xe đầu tiên trang bị hệ thống lái thông minh BMW Intelligent Personal Assistant, giúp người lái điều khiển xe bằng giọng nói.</p>
+                <p>BMW không chỉ là một hãng xe hơi, mà còn là một biểu tượng của sự đẳng cấp, sáng tạo và đam mê.</p>
+            </div>
+        </div>
+    </section>
+    <!--Introduce end-->
+
+    <!--Vehicles start-->
+    <section class="vehicles" id="vehicles" >
+        <h1 class="heading" data-aos="zoom-out" data-aos-delay="100"  data-aos-duration="1000"> Popular <span>Vehicles</span></h1>
+        <div class="swiper vehicles-slider" data-aos="zoom-out-down" data-aos-delay="100"  data-aos-duration="1000">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 320i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 320i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hoangnam1107.github.io/nam.githup/bmw/bmw%20320i/XE1/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 320i Sportline.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 320i Sportline</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://vongoctuyetnhung.github.io/BTNhom/Xe%201/details.html#home" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 520i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 520i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://vongoctuyetnhung.github.io/BTNhom/Xe%202/details.html#home" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 520i.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 520i </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hoangnam1107.github.io/nam.githup/bmw/bmw%20520i/XE%202/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 530i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 530i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hongan911.github.io/2311COMP180201-TKWED-49.01.103.006/x2/html/Untitled-4.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X5 M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X5 M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://phucnguyen1110.github.io/2311COMP180201-TKWEB-4901103066/Btnhom/XE1/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X7 M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW BMW X7 Pure Excellence</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hongan911.github.io/2311COMP180201-TKWED-49.01.103.006/x1/html/Untitled-1.html#contact" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X7 Pure Excellence.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X7 xDrive40i Pure Excellence 2023</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://mihengtri.github.io/2311COMP180201-TKWEB-4901103027/Xe%202/html/html.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/bmw-x7-2024.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X7 2024</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://mihengtri.github.io/2311COMP180201-TKWEB-4901103027/Xe%201/html/xe1.html.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW XM 2024.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW XM 2024</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://phucnguyen1110.github.io/2311COMP180201-TKWEB-4901103066/Btnhom/XE%202/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <!--Vehicles end-->
+
+    
+    </section>
+    <!--Contact end-->
+
+    <!--Footer start-->
+    <section class="footer">
+        <p><span>Created by</span> Team Review Xe</p>
+    </section>
+    <!--Footer end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="trangchu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+   
+</body>
+</html>
